@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Store Properties */
+.mainLogo{
+  margin-top: 13px;
+  align-items: center;
+  width: 200px;
+}
+
+.cartIcon {
+  width: 32px;
+  height: 32px;
+}
