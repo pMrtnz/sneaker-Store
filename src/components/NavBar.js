@@ -20,7 +20,10 @@ function NavBar() {
                         <a className="nav-link active px-5" aria-current="page" href="#">Home</a>
                         <a className="nav-link px-5" href="#">Shop</a>
                         <a className="nav-link px-5" href="#">About</a>
-                        <CartWidget/>
+                        <div className='d-flex'>
+                            <CartWidget/>
+                            <span className='cartQty fw-bold text-center me-4'>4</span>
+                        </div>
                         </div>
                     </div>
                 </div>
