@@ -1,7 +1,7 @@
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../assets/img/logo.svg';
-import cartLogo from '../assets/img/cartLogo.png';
+import CartWidget from './CartWidget';
 
 function NavBar() {
     return (
@@ -20,9 +20,7 @@ function NavBar() {
                         <a className="nav-link active px-5" aria-current="page" href="#">Home</a>
                         <a className="nav-link px-5" href="#">Shop</a>
                         <a className="nav-link px-5" href="#">About</a>
-                        <a className="nav-link py-0 mx-4" href="#">
-                            <img src={cartLogo} alt="Cart" className="cartIcon"/>
-                        </a>
+                        <CartWidget/>
                         </div>
                     </div>
                 </div>
