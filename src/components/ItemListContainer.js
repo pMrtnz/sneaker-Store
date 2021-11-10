@@ -1,17 +1,18 @@
+import { useState } from "react"
 import Sneaker from "./Sneaker"
 import ItemCount from "./ItemCount"
 
-export default function ItemListContainer() {
+const ItemListContainer = (props) => {
     return (
         <>
-        <h1 className='display-3 text-center mt-5'>
+        <h1 className='display-3 text-center my-5'>
             <span className='brandColor fw-normal'>SNKRS</span> Store
         </h1>
 
         <Sneaker />
-
-        <ItemCount stock={10} initial={1} />
+        
         </>
-    )
-}
+    );
+};
 
+export default ItemListContainer;

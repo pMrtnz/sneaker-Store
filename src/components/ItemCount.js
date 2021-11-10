@@ -20,14 +20,14 @@ const ItemCount = (props) => {
     }
     
     return(
-        <div className='text-center'>
-            <div >
-                <button className='mx-4' onClick= {decrement} >-</button>
-                {cantidad}
-                <button className='mx-4' onClick= {increment} >+</button>
+        <div className='text-center mt-3'>
+            <div className='qtyCard'>
+                <button type="button" className="btn btn-primary mx-5" onClick= {decrement} >-</button>
+                <p className='mx-5 fw-bold'>{cantidad}</p>
+                <button type="button" className="btn btn-primary mx-5" onClick= {increment} >+</button>
             </div>
-            <div className='mt-4'>
-                <button onClick= {addToCart}>Add To Cart</button>
+            <div className='my-3'>
+                <button type="button" className="btn btn-primary btnAdd" onClick= {addToCart}>Add To Cart</button>
             </div>
         </div>
     );

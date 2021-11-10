@@ -13,3 +13,20 @@
 .brandColor {
   color: #0069DD;
 }
+
+/* Card */
+.card {
+  width: 100%;
+  border-radius: 5px;
+  width: 600px;
+}
+
+.qtyCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnAdd{
+  width: 270px;
+}

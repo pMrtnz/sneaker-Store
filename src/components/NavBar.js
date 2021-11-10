@@ -22,7 +22,7 @@ function NavBar() {
                         <a className="nav-link px-5" href="#">About</a>
                         <div className='d-flex'>
                             <CartWidget/>
-                            <span className='cartQty fw-bold text-center me-4'>4</span>
+                            <span className='cartQty fw-bold text-center me-4'>1</span>
                         </div>
                         </div>
                     </div>
