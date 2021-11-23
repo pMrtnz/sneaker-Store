@@ -30,3 +30,15 @@
 .btnAdd{
   width: 270px;
 }
+
+.cards{
+  margin: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex; 
+}
+
+.spinnerLoad{
+  margin: 150px 0 100px 0;
+}

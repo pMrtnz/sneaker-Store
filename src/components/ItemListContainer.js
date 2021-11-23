@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import fetchCustom from "../utils/fetchCustom";
 import ItemList from "./ItemList.jsx";
-const { products } = require('../utils/products');
+import products from "../utils/products";
 
 const ItemListContainer = () => {
     const [items, setItems] = useState([]);
