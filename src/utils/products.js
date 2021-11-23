@@ -74,7 +74,8 @@ const products = [
         sizes: '7.5 / 8 / 9 / 9.5 US',
         image: [
             'https://cdn.shopify.com/s/files/1/2358/2817/products/Wethenew-Sneakers-France-Adidas-NMD-Pharrell-Williams-Human-Race-Proud-Infinit_5000x.png?v=1567083514'
-        ]
+        ],
+        description: 'Proin sem ante, semper in lorem sed, scelerisque blandit lacus. Sed sit amet metus eu ipsum luctus ullamcorper. Vivamus vehicula arcu ut dignissim eleifend. Etiam congue ultrices lacus sit amet pellentesque. Maecenas sit amet euismod nisi. Suspendisse potenti. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam vitae semper nisl. Sed eget ipsum non mauris tempus maximus in accumsan lectus. Etiam sodales lectus nec lorem accumsan elementum.'
     },
     {
         id: 8,
